@@ -1,9 +1,10 @@
 import { LogOut } from "lucide-react";
+import Image from "next/image";
 
 export function Profile() {
     return (
         <div className="flex items-center gap-3">
-            <img
+            <Image
                 src="https://github.com/IvolbeneH.png"
                 className="w-10 h-10 rounded-full"
                 alt=""

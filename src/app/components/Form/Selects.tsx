@@ -22,7 +22,7 @@ export function Selects({ children, placeholder, ...props }: SelectProps) {
                 <Select.Content
                     side='bottom'
                     position='popper'
-                    className='z-10 rounded-lg border border-zinc-300 bg-white w-[--radix-select-trigger-width] animate-sliedeDownAndFade'
+                    className='z-10 rounded-lg border border-zinc-300 bg-white w-[--radix-select-trigger-width]'
                     sideOffset={6}
                 >
                     <Select.Viewport>
